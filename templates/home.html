@@ -1,0 +1,12 @@
+<h1> Word Count </h1>
+<!-- {{hithere}} allows u to write some python code
+            can pass in the key -->
+
+
+<form action="{% url 'count' %}"> <!-- where u can enter some url info in action -->
+  <textarea name="fulltext" rows="5" cols="40"></textarea>
+  <br /> <!-- this is a line break tag -->
+  <input type = "submit" value = "Count!" />
+</form>
+
+<a href="{% url 'about' %}"> About Page </a>
